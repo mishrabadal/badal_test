@@ -1,0 +1,55 @@
+2022
+=============
+Q.2 Explain in detail the classical waterfall model with help of a neat and labelled diagram.
+ 
+Q.3 (a) What is prototyping model? Explain the problems and advantages of prototyping in detail. 
+(b) Develop a test case for any testing technique for 'student admission system. 
+
+Q.4 (a) Define cohesion and coupling. Explain various types of each of them. 
+(b) What are CASE tools? With a suitable diagram, explain the categories of CASE tools. 
+
+Q.5 What are the different COCOMO models? Explain the phases involved in the detailed COCOMO model.
+
+Q.6 (a) What are the types of user-interface design? 
+(b) Explain the stages of object-oriented design process. 
+
+Q.7 Write short notes on the following: 
+(a) Unified modelling language 
+(b) Object-oriented analysis modelling 
+(c) Object-oriented design concepts and methods 
+
+Q.8 Explain coding standards, coding guidelines and code review techniques in detail. 
+
+Q.9 (a) What is software quality? Discuss software quality attributes. 
+
+(b) Discuss the differences between object-oriented and function-oriented designs
+
+2021
+===========
+2. (a) Give the full form of CASE. Draw CASE diagram showing all components. Describe each component briefly. 
+(b) Draw the first two levels of DFDs for an Online Examination System'. Make necessary assumptions.
+ 
+3. (a) Prepare SRS for an Inventory Management System' for a retail medical store. Also explain the risk assessment and management in brief. Make necessary assumptions. 
+(b) Explain cohesion and coupling. How are the concepts of coupling and cohesion useful in arriving at good software design? 
+
+4. (a) What is software quality assurance? Explain different quality matrices. 
+(b) What is cyclomatic complexity? How is it computed? Calculate cyclomatic complexity for the program to find the smallest of three numbers. 
+
+5. (a) What are project metrices? Explain different types of project metrics with an example for each. https://www.akubihar.com 
+(b) What are the main objectives of software verification and validation? Explain different verification validation techniques. and 
+
+6(a) Explain any two of the risk management techniques with suitable 
+(b) Write the structure of SRS as per IEEE standards. 
+
+7. (a) Explain Agile process advantage. Explain any process model. with its one Agile 
+    (b) Write the structure of SRS as per IEEE standards.
+
+
+8. (a) What are the different methods used for estimating cost and effort required for completing a project successfully? Explain any one method in detail. 
+(b) What is software quality? What are three dimensions of software quality? Explain briefly. 
+
+9. (a) Explain function point based matrices with suitable example. 
+(b) Write short notes on the following: 
+(i) Project management 
+(ii) Test case design 
+(iii) Software reliability
