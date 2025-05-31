@@ -1,0 +1,11 @@
+1.explain turing test
+2. explain how ai technique improve our real world problem
+3. explain 8 puzzle problem
+4. hill climbing problem and AO*
+5. DFS and BFS (algorithm)
+6. how knowledge is represented
+7. issue in knowledge represent
+8. explain first order logic and quantifier
+9. difference between propositional logic and predicate
+10.explain uncertain knowledge
+11. probability in ai
