@@ -1,0 +1,22 @@
+1. cmd: npm init
+2. cmd : npm install tailwindcss @tailwindcss/cli
+3. create src folder
+src/input.css   Add text    @import "tailwindcss";
+src/index.html  Add      Below html code
+
+4. cmd: npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+-------------------------------------------------------------------------------------
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+----------------------------------------------------------------------------------------
