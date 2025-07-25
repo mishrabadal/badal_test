@@ -1,0 +1,38 @@
+
+BADAL KUMAR
+Full Stack Developer
+📧 mishrabadal988@gmail.com | 📱 +91 9608519031 | 📍 Patna, Bihar, India
+
+TECHNICAL SKILLS
+• Programming Languages: C, C++, JavaScript
+• Frontend: React, HTML5, CSS3, Tailwind CSS
+• Backend: Node.js, Express.js
+• Database: MongoDB
+• Tools: Git, GitHub, RESTful APIs
+
+EXPERIENCE
+Full Stack Developer
+• Developed responsive web applications using React and Node.js
+• Implemented RESTful APIs with Express.js and MongoDB
+• Created modern, user-friendly interfaces with Tailwind CSS
+• Collaborated on projects using Git and GitHub
+
+PROJECTS
+1. E-Commerce Platform
+   - Full-stack solution with React, Node.js, MongoDB
+   - User authentication and payment integration
+   
+2. Task Management App
+   - Real-time collaboration features
+   - Drag-and-drop functionality with React
+   
+3. Analytics Dashboard
+   - Interactive data visualization
+   - RESTful API integration
+
+EDUCATION
+[Your Education Details]
+
+CONTACT
+Ready to contribute to innovative projects and grow with your team!
+            
