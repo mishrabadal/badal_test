@@ -1,0 +1,73 @@
+yt-dlp -f bestvideo+bestaudio -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "https://youtu.be/wn30bNL-yv0?si=2KckE9t84kg-GVvG"
+
+
+---diffrent links -------
+
+yt-dlp -f bestvideo+bestaudio -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "https://youtu.be/6IolsIONBT0?si=8NKevZwWMxD3IFVW"  "https://youtu.be/HauOhGcZ_kg?si=qasUCtHeOPH2CbiH"  "https://youtu.be/cE0GrkFX7l0?si=yhAQopHrBIMiEqMm"  
+
+
+
+for download in mp4
+
+yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "https://youtu.be/wn30bNL-yv0?si=2KckE9t84kg-GVvG"
+
+
+
+
+
+
+To download a YouTube video in 720p MP4 using yt-dlp, use this command:
+yt-dlp -f "bestvideo[height=720][ext=mp4]+bestaudio[ext=m4a]/best[height=720][ext=mp4]" --merge-output-format mp4 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "https://youtu.be/iv7lcUkFVSc?si=C47IOaGOyIwwEmyL"
+
+
+
+
+
+
+Great! Here are commands for downloading in **different resolutions (MP4)** using `yt-dlp`. Each includes audio + video merged into one `.mp4` file.
+
+---
+
+### 🔹 1080p MP4:
+
+```bash
+yt-dlp -f "bestvideo[height=1080][ext=mp4]+bestaudio[ext=m4a]/best[height=1080][ext=mp4]" --merge-output-format mp4 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "VIDEO_URL"
+```
+
+---
+
+### 🔹 720p MP4:
+
+```bash
+yt-dlp -f "bestvideo[height=720][ext=mp4]+bestaudio[ext=m4a]/best[height=720][ext=mp4]" --merge-output-format mp4 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "VIDEO_URL"
+```
+
+---
+
+### 🔹 480p MP4:
+
+```bash
+yt-dlp -f "bestvideo[height=480][ext=mp4]+bestaudio[ext=m4a]/best[height=480][ext=mp4]" --merge-output-format mp4 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "VIDEO_URL"
+```
+
+---
+
+### 🔹 Audio Only (MP3):
+
+If you want just the audio as MP3:
+
+```bash
+yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o "C:\Users\med\OneDrive\Desktop\hello\%(title)s.%(ext)s" "https://youtu.be/iv7lcUkFVSc?si=C47IOaGOyIwwEmyL"
+```
+
+---
+
+### 🔁 Replace `"VIDEO_URL"`:
+
+Replace `VIDEO_URL` in the command with your actual YouTube link:
+
+```
+"https://youtu.be/wn30bNL-yv0?si=2KckE9t84kg-GVvG"
+```
+
+Let me know if you want a batch download, subtitles, or specific file size limits.
