@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Badal Kumar - Full Stack Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 bg-indigo-600 text-white shadow z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-3">
+      <div class="text-2xl font-bold">BK</div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-gray-300">Home</a>
+        <a href="#skills" class="hover:text-gray-300">Skills</a>
+        <a href="#projects" class="hover:text-gray-300">Projects</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+        <a href="#" class="bg-white text-indigo-600 px-4 py-1 rounded hover:bg-gray-200 font-semibold">Resume</a>
+      </div>
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-indigo-500">
+      <a href="#home" class="block px-4 py-2 hover:bg-indigo-400">Home</a>
+      <a href="#skills" class="block px-4 py-2 hover:bg-indigo-400">Skills</a>
+      <a href="#projects" class="block px-4 py-2 hover:bg-indigo-400">Projects</a>
+      <a href="#contact" class="block px-4 py-2 hover:bg-indigo-400">Contact</a>
+      <a href="#" class="block px-4 py-2 bg-white text-indigo-600 font-semibold">Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-28 pb-20 bg-white text-center">
+    <h1 class="text-4xl font-bold mb-4">Hi, I'm Badal Kumar</h1>
+    <h2 class="text-2xl text-indigo-600 mb-4">Full-Stack Developer</h2>
+    <p class="max-w-xl mx-auto mb-6 text-gray-600">Building modern, scalable web applications using MERN stack & modern technologies.</p>
+    <div class="space-x-4">
+      <a href="#" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 font-semibold">Download Resume</a>
+      <a href="#contact" class="bg-gray-200 text-gray-800 px-6 py-2 rounded hover:bg-gray-300 font-semibold">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">C</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">C++</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">JavaScript</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">React</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">Node.js</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">MongoDB</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">Express</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">Tailwind CSS</div>
+      <div class="p-6 bg-white rounded shadow font-semibold text-indigo-600">GitHub</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-100 rounded shadow">
+        <h3 class="text-xl font-bold mb-2">Project 1</h3>
+        <p class="mb-3 text-gray-600">Description about project 1 goes here. Technologies used: React, Node.js, MongoDB.</p>
+        <a href="#" class="text-indigo-600 font-semibold">View on GitHub</a>
+      </div>
+      <div class="p-6 bg-gray-100 rounded shadow">
+        <h3 class="text-xl font-bold mb-2">Project 2</h3>
+        <p class="mb-3 text-gray-600">Description about project 2 goes here. Technologies used: Express, MongoDB, Tailwind.</p>
+        <a href="#" class="text-indigo-600 font-semibold">View on GitHub</a>
+      </div>
+      <div class="p-6 bg-gray-100 rounded shadow">
+        <h3 class="text-xl font-bold mb-2">Project 3</h3>
+        <p class="mb-3 text-gray-600">Description about project 3 goes here. Technologies used: Full-Stack MERN.</p>
+        <a href="#" class="text-indigo-600 font-semibold">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-10">Contact Me</h2>
+    <div class="max-w-4xl mx-auto text-center space-y-4">
+      <p><strong>Email:</strong> <a href="mailto:mishrabadal988@gmail.com" class="text-indigo-600">mishrabadal988@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+919608519031" class="text-indigo-600">+91 9608519031</a></p>
+      <p><strong>Address:</strong> Patna, Bihar</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-indigo-600 text-center text-white">
+    © 2025 Badal Kumar | Full Stack Developer
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.add('hidden');
+      });
+    });
+  </script>
+
+</body>
+</html>
